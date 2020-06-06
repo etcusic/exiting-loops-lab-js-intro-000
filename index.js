@@ -21,5 +21,5 @@ function findBy(array, findFn){
   if (array.indexOf(findFn) < 0){
     return null
   }
-  //return 
+  return findFn
 }
