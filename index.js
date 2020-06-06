@@ -18,5 +18,5 @@ function keepGoing(array, changeValue, skipValue){
 }
 
 function findBy(array, findFn){
-  array.find(array, findFn)
+  array.find(findFn)
 }
