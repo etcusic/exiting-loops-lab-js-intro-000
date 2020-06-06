@@ -5,6 +5,7 @@ function breakOut(array, changeValue, stopValue){
     }
     changeValue(array[i])
   }
+  return array
 }
 
 function keepGoing(array, changeValue, skipValue){
